@@ -1,13 +1,13 @@
 export interface Event {
     id: number
-    category:String
-    title:String
-    description: String
-    location: String
-    date: String
-    time: String
+    category:string
+    title:string
+    description: string
+    location: string
+    date: string
+    time: string
     petsAllowed: boolean
-    organizer: String
+    organizer: string
 }
 
 export interface Student {
